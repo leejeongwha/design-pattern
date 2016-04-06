@@ -127,3 +127,5 @@ plusCalculator가 처리하지 못할경우 다음 객체에게 넘김
 실습
 - Animal객체를 생성하고 Caretaker를 통해서 생성한 메멘토 객체를 저장, Caretaker를 통해서 추후 가져올 수 있음
 - Originator를 통해서 이전 객체를 조작 가능하면 안됨
+
+21 null object pattern

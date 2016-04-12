@@ -128,4 +128,9 @@ plusCalculator가 처리하지 못할경우 다음 객체에게 넘김
 - Animal객체를 생성하고 Caretaker를 통해서 생성한 메멘토 객체를 저장, Caretaker를 통해서 추후 가져올 수 있음
 - Originator를 통해서 이전 객체를 조작 가능하면 안됨
 
-21 null object pattern
+21. null object pattern
+- 정의된 액션을 수행을 하지만 수행의 내용은 비어있는 빈 객체를 기본으로 제공해 줌으로서 예외 처리를 사전에 피하는 안전한 방식의 프로그래밍 패턴
+실습 
+- java.util.Collections#emptyList() 내부의 EmptyList static 클래스 
+- java.util.Collections#emptyMap() 내부의 EmptyMap static 클래스
+- java.util.Collections#emptySet() 내부의 EmptySet static 클래스

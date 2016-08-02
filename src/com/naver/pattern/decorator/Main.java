@@ -26,5 +26,10 @@ public class Main {
 
 		System.out.println("최종 음료 가격 : " + beverage.getTotalPrice());
 		sc.close();
+
+		// 샷 추가만 3번 했을 경우 아래와 동일
+		IBeverage beverage2 = new Base();
+		IBeverage test = new Espresso(new Espresso(new Espresso(beverage2)));
+		System.out.println("최종 음료 가격2 : " + test.getTotalPrice());
 	}
 }
